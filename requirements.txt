@@ -1,17 +1,10 @@
-# Install aiogram on steroids by default
-aiogram
-# uvloop  # windows not supported (uncomment if you are on Linux)
+aiogram==2.25.2
+uvloop
 ujson
+
 aiohttp[speedups]
+aiodns
 
-# Or choose manually what to install ...
-# aiogram  # general aiogram
-# uvloop  # fast, drop-in replacement of the built-in asyncio event loop
-# ujson  # ultra fast JSON encoder and decoder written in pure C
-# cchardet # (aiohttp speedup) high speed universal character encoding detector
-# aiodns # (aiohttp speedup) provides a simple way for doing asynchronous DNS resolutions
-
-# Other packages
 python-dotenv
 
 ###############################################################
